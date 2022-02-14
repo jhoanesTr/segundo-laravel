@@ -1,0 +1,11 @@
+body{
+    background-color: rgba(75, 75, 75, 0.767);
+    display: flex;
+    align-content: center;
+}
+h1{
+    color: red;
+}
+p{
+    color: white;
+}

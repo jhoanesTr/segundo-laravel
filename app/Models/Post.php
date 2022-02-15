@@ -38,11 +38,13 @@ class Post{
     }
     public static function find($slug){
         return static::all()->firstWhere('slug', $slug);
-        /*Antes
-        base_path();
-        if(!file_exists($path= resource_path("posts/$slug.html"))){
+        
+    }
+    public static function findOrFail($slug){
+        $post= static::find($slug);
+        if(! $post){
             throw new ModelNotFoundException();
-         }
-         return cache()->remember("posts.$slug", 1200, fn() => file_get_contents($path));*/
+        }
+        return $post;
     }
 }

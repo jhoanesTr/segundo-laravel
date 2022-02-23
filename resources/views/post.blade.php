@@ -1,10 +1,9 @@
-
 <link rel="stylesheet" href="/css/post.css">
     <article>
-        <h1>{{$post->title}}</h1>
+        <h1>{!! $post->title !!}</h1>
 
-        <div>
-            {!! $post->body !!}
+        <div><!--!! permite meter codigo !!-->
+            {!! $post->body !!} 
         </div>
     </article>
-    <a href="/">Ir atras</a>
+    <a href="../">Ir atras</a>

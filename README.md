@@ -11,9 +11,9 @@ Llegué hasta el video 24
 - Email: jhoanes@gmail.com
 - Contraseña: 1234
 ------------------------
-DB_CONNECTION=mysql
-        DB_HOST=127.0.0.1
-        DB_PORT=3306
-        DB_DATABASE=segundo-laravel
-        DB_USERNAME=root
-        DB_PASSWORD=
+- DB_CONNECTION=mysql
+- DB_HOST=127.0.0.1
+- DB_PORT=3306
+- DB_DATABASE=segundo-laravel
+- DB_USERNAME=root
+- DB_PASSWORD=

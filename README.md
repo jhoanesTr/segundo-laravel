@@ -7,9 +7,9 @@ Llegué hasta el video 24
 - Estilos con laravel
 - Clases de laravel
 ------------------------
-Nombre: Jhoanes
-Email: jhoanes@gmail.com
-Contraseña: 1234
+- Nombre: Jhoanes
+- Email: jhoanes@gmail.com
+- Contraseña: 1234
 ------------------------
 DB_CONNECTION=mysql
         DB_HOST=127.0.0.1
